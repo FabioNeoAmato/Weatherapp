@@ -1,6 +1,11 @@
 body {
   background-color: black;
+ 
+
 }
-body h1 {
+h1{
   color: white;
-}/*# sourceMappingURL=style.css.map */
+}
+.container{
+  color: white;
+}
