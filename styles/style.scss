@@ -1,7 +1,22 @@
 body{
-    background-color: black;
-    color:white;
+    background-color: white;
+    color:black;
+    margin: 0;
+    padding: 0;
     h1 {
-        color: white;
+        color: rgb(8, 8, 8);
+        text-align: center;
     }
+}
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+p{
+    border: solid 2px black;
+
+display: grid;
+grid-template-columns: 1fr;
 }

@@ -1,11 +1,23 @@
 body {
-  background-color: black;
- 
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+body h1 {
+  color: rgb(8, 8, 8);
+  text-align: center;
+}
 
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
-h1{
-  color: white;
-}
-.container{
-  color: white;
-}
+
+p {
+  border: solid 2px black;
+  display: grid;
+  grid-template-columns: 1fr;
+}/*# sourceMappingURL=style.css.map */

@@ -29,9 +29,13 @@ function fetchingDatas() {
         true
       );
       templateElement.getElementById("date").textContent = call.dt_txt;
+      // templateElement.getElementById("icon").textContent = call.weather[0].icon;
+      templateElement.getElementById("maxTemp").textContent       = `MAX t°: ${Math.round(call.main.temp_max)}`;
+            templateElement.getElementById("minTemp").textContent       = `Min t°: ${Math.round(call.main.temp_min)}`; 
+      templateElement.getElementById("windSpeed").textContent = call.wind.speed;
       templateElement.getElementById("description").textContent =
         call.weather[0].description;
-  
+      
       document.querySelector("main").appendChild(templateElement);
     });
   }
